@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.jorvea",
+      "sha256_cert_fingerprints": [
+        "BA:D8:47:48:30:97:60:B0:3C:B8:28:74:15:AA:69:F9:16:8C:43:98:57:34:F9:7B:8A:F1:14:78:63:BF:2D:0D"
+      ]
+    }
+  }
+]
