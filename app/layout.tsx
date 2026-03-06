@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jorvea.tech"),
+  metadataBase: new URL("https://app.jorvea.tech"),
   title: {
     default: "Jorvea - Create, Share, Connect",
     template: "%s | Jorvea",
@@ -45,6 +45,9 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
+  verification: {
+    google: "7On-t8py-R93H6RZmPgT649VcpmJG47OIvsNSe5vVVI",
+  },
   alternates: {
     canonical: "/",
   },
@@ -52,7 +55,7 @@ export const metadata: Metadata = {
     title: "Jorvea - Create, Share, Connect",
     description:
       "Download Jorvea and join a fast, creator-first social video experience.",
-    url: "https://jorvea.tech",
+    url: "https://app.jorvea.tech",
     siteName: "Jorvea",
     type: "website",
     images: [
@@ -91,8 +94,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Jorvea",
-    url: "https://jorvea.tech",
-    logo: "https://jorvea.tech/images/logo.png",
+    url: "https://app.jorvea.tech",
+    logo: "https://app.jorvea.tech/images/logo.png",
     sameAs: [],
   };
 
@@ -100,10 +103,10 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Jorvea",
-    url: "https://jorvea.tech",
+    url: "https://app.jorvea.tech",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://jorvea.tech/earning",
+      target: "https://app.jorvea.tech/earning",
       "query-input": "required name=search_term_string",
     },
   };
